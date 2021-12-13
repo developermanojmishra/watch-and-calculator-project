@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    list-style: none;
+    margin: 2px;
+    padding: 2px;
+    overflow: hidden;
+    background-color:black;
+}
+li{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+
+}
+body{
+    background-image: url("new.jpg");
+}
+.formstyle{
+width: 300px;
+height: 330px;
+margin: 20px auto;
+border: 3px solid skyblue;
+border-radius: 5px;
+padding: 20px;
+text-align: center;
+background-color: grey;
+}
+ /* Display top horizontal bar that contain some information. */
+ h1 {
+    text-align: center;
+    padding: 23px;
+    background-color: blue
+    
+    }
+input:hover
+{
+background-color: green;
+}
+    
+*{
+margin: 0;
+padding: 0;
+}
+
+/* It is used to create the layout for calculator button. */
+.btn{
+width: 50px;
+height: 50px;
+font-size: 25px;
+margin: 2px;
+cursor: pointer;
+background-color: red;
+color: white;
+
+}
+
+/* It is used to display the numbers, operations and results. */
+.textview {
+width: 223px;
+margin: 5px;
+font-size: 25px;
+padding: 5px;
+background-color: lightgreen;
+}	
+#clock {
+    font-size: 50px;
+    width: 900px;
+    margin: 200px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 2px;
+    text-align: center;
+    float:right;
+}
